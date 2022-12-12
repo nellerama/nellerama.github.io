@@ -30,7 +30,7 @@ header
 {
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-image:url("file:///C:/Users/djsni/OneDrive/Documents/gillianwolffe/header_background.svg");
+	background-image:url("header_background.svg");
 	text-align: center; 
 }
 #header-text
@@ -56,7 +56,7 @@ header h2
 /* ACTION */
 #action
 {
-	background-image: url("file:///C:/Users/djsni/OneDrive/Documents/gillianwolffe/action_background.svg");
+	background-image: url("action_background.svg");
 	background-position: center;
 	background-size: cover;
 }
