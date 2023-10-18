@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <svg width="1920" height="3000" viewBox="0 0 1920 3000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="1920" height="3000" fill="#EBEBEB"/>
 <path d="M0 0H1920V270H0V0Z" fill="#F5F5F5"/>
 </svg>
+=======
+<svg width="1920" height="3000" viewBox="0 0 1920 3000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="3000" fill="#EBEBEB"/>
+<path d="M0 0H1920V270H0V0Z" fill="#F5F5F5"/>
+</svg>
+>>>>>>> 1d290063decf1880c5efea10743d594ebee1130e
