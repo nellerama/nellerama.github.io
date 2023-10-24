@@ -335,9 +335,8 @@ header h2
 
 #action-info
 {
-	
-  display: grid;
-  align-items: stretch;
+	display: grid;
+  	grid-template-rows: 25% 12.5% 50%;
 }
 
 #action-info p
