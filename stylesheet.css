@@ -319,6 +319,7 @@ header h2
 	background-image: url("action_background.svg");
 	background-position: center;
 	background-size: cover;
+	font-size: larger;
 }
 
 #action h1
