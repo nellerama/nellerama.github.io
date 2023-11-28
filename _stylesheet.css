@@ -1,0 +1,164 @@
+body
+{
+	font-family: "Montserrat";
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+section{
+    height: 90vh;
+}
+section > div {
+    padding-top: 70px;
+}
+
+h2{
+    font-weight: 1000;
+}
+.background-gold{
+    background-color: #BBA649
+}
+.gold
+{
+	color: #BBA649
+}
+.navy
+{
+	color: #113F6D;
+}
+
+.brown
+{
+	color: #937D1D;
+}
+
+
+.img-thumbnail
+{
+	border: none;
+	background-color: inherit; 
+}
+
+.arrow-down{
+    transform: rotate(90deg);
+    margin: 10px auto;
+}
+
+/* HEADER */
+
+header
+{
+	background-repeat:no-repeat;
+	background-size: cover;
+    background-color: #F5F5F5;
+	text-align: center; 
+}
+#header-logo{
+    padding-top: 70px;
+    margin-left: 40px;
+}
+
+#header-text
+{
+	display:grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#header-image-container
+{
+	padding:0;
+}
+
+#header-image-container > img
+{
+	max-width: 100%;
+}
+header h2
+{
+	color:#113F6D;
+}
+
+@media screen and (max-width: 992px) {
+    #header-image-container{
+        display:none;
+    };
+
+    #header-logo{
+        margin: auto;
+    };
+   header .arrow-down{
+        margin: 40px auto;
+   }
+
+
+}
+/* ACTION */
+#action-info
+{
+	background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/action_background.svg");
+	background-position: center;
+	background-size: cover;
+    color:white;
+    font-weight: 1000;
+    text-align: center;
+    display: grid;
+}
+
+#action-info ul{
+    list-style-type: none;
+}
+
+#form-container{
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10% 10% 14% 40%;
+}
+#form-container form{
+    width: 60%;
+    margin: auto;
+    border: #F5F5F5 1px solid;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+#form-container ul{
+    text-align: center;
+    list-style-position: inside;
+    font-size: smaller;
+    font-style: italic;
+    display: grid;
+    padding: 10px 30px;
+}
+#form-container h5{
+    font-style: italic;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+#form-container ::placeholder{
+    color: #937D1D;
+}
+
+#button-container{
+    text-align: center;
+    margin: 20px 0px;
+}
+#form-container #submit{
+    background-color: #113F6D;
+    height:65px;
+    margin:auto;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#form-container input{
+    border: none;
+}
+
+#form-check{
+    text-align: center;
+}

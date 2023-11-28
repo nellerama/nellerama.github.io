@@ -31,7 +31,7 @@ header
 {
 	background-repeat:no-repeat;
 	background-size: cover;
-	background-image:url("file:///C:/Users/djsni/OneDrive/Documents/gillianwolffe/header_background.svg");
+	background-image:url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/header_background.svg");
 	text-align: center; 
 }
 #header-text
