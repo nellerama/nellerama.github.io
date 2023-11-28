@@ -169,5 +169,11 @@ header h2
 /* TESTIMONIAL */ 
 
 #testimonial-img-container{
-    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/testimonial.svg")
+    background-color: #113F6D;
+    display: flex;
 }
+
+#testimonial-img-container img{
+    width: 100%;
+}
+
