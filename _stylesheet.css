@@ -10,7 +10,7 @@ body
 section{
     height: 90vh;
 }
-section > div {
+#action > div, #form-container > div {
     padding-top: 70px;
 }
 
@@ -104,10 +104,13 @@ header h2
     font-weight: 1000;
     text-align: center;
     display: grid;
+    grid-template-rows: 10% 75%;
 }
 
 #action-info ul{
-    list-style-type: none;
+    list-style-position: inside;
+    display: grid;
+    font-size: larger;
 }
 
 #form-container{
@@ -161,4 +164,10 @@ header h2
 
 #form-check{
     text-align: center;
+}
+
+/* TESTIMONIAL */ 
+
+#testimonial-img-container{
+    
 }
