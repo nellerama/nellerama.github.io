@@ -127,6 +127,7 @@ header h2
     border: #F5F5F5 1px solid;
     padding: 30px;
     border-radius: 8px;
+    margin-bottom: 70px;
 }
 
 #form-container ul{
@@ -174,6 +175,10 @@ header h2
     background-color: #113F6D;
     display: flex;
     text-align: center;
+}
+
+#bio-container{
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/bio_background.svg");
 }
 
 @media screen and (max-width: 768px) {
