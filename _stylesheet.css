@@ -176,11 +176,27 @@ header h2
     display: flex;
     text-align: center;
 }
-
+#headshot{
+    width: 100%;
+    align-self: center;
+}
 #bio-container{
     background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/bio_background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    display: grid;
+    padding: 70px;
+    text-align: center;
+}
+#bio-container h2{
+    color: #937D1D;
 }
 
+#bio-container p{
+    color: #113F6D;
+}
 @media screen and (max-width: 768px) {
     #testimonial-img-container .arrow-right{
         transform: rotate(90deg);
