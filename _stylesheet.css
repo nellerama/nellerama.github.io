@@ -8,7 +8,7 @@ body
 }
 
 section{
-    height: 90vh;
+    min-height: 90vh;
 }
 #action > div, #form-container > div {
     padding-top: 70px;
@@ -46,6 +46,9 @@ h2{
     margin: 10px auto;
 }
 
+.arrow-right{
+    max-width: 120px;
+}
 /* HEADER */
 
 header
@@ -91,7 +94,6 @@ header h2
    header .arrow-down{
         margin: 40px auto;
    }
-
 
 }
 /* ACTION */
@@ -171,9 +173,18 @@ header h2
 #testimonial-img-container{
     background-color: #113F6D;
     display: flex;
+    text-align: center;
 }
 
-#testimonial-img-container img{
-    width: 100%;
-}
+@media screen and (max-width: 768px) {
+    #testimonial-img-container .arrow-right{
+        transform: rotate(90deg);
+        margin: auto;
+        padding-top: 40px;
+    }
+    #testimonial-img-container img{
+        width: 50%;
+        margin: auto;
 
+}
+}

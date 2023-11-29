@@ -3,7 +3,7 @@
 <ellipse cx="371.794" cy="353.894" rx="371.134" ry="353.095" fill="#D9D9D9"/>
 </mask>
 <g mask="url(#mask0_761_15)">
-<rect x="-549.608" y="-296.743" width="2038.86" height="1248.03" fill="url(#pattern0)"/>
+<rect x="-595" y="-235" width="2038.86" height="1248.03" fill="url(#pattern0)"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
