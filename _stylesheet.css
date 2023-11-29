@@ -46,8 +46,9 @@ h2{
     margin: 10px auto;
 }
 
-.arrow-right{
-    max-width: 120px;
+.arrow-right, .arrow-down{
+    max-width: 9em;
+    min-width: 3em;
 }
 /* HEADER */
 
@@ -173,8 +174,15 @@ header h2
 
 #testimonial-img-container{
     background-color: #113F6D;
-    display: flex;
+    display: grid;
+    grid-template-columns: 75% 25%;
     text-align: center;
+}
+
+#testimonial-img-container .arrow-right{
+    align-self: center;
+    width: 100%;
+    margin: auto;
 }
 #headshot{
     width: 100%;
@@ -201,11 +209,51 @@ header h2
     #testimonial-img-container .arrow-right{
         transform: rotate(90deg);
         margin: auto;
-        padding-top: 40px;
+        padding: 20px;
     }
-    #testimonial-img-container img{
+    #testimonial-img-container{
+        grid-template-rows: 75% 25%;
+        grid-template-columns: none;
+    }
+
+    #headshot{
         width: 50%;
         margin: auto;
+    }
+    #testimonial-img-container img{
+        margin: auto;
+    }
+}
 
+/* PERKS */
+#perks{
+    text-align: center;
+    color: #F5F5F5;
+    padding: 70px 0;
 }
+#perks .row{
+    margin-top: 70px;
 }
+#perks .row:first-child{
+    margin-top: 0;
+}
+#perks h3{
+    color: #113F6D;
+    font-weight: 700;
+}
+.perk-icon img{
+    width: 75%;
+    max-width: 250px;
+}
+
+.perk-info{
+    display: grid;  
+    grid-template-rows: 30px auto;
+    align-content: center;
+  
+}
+#perks .arrow-down{
+    padding: 4%;
+    margin: auto;
+}
+
