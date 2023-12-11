@@ -54,11 +54,18 @@ h2{
 
 header
 {
+    margin-bottom: 0;
+    padding-bottom: 0;
 	background-repeat:no-repeat;
 	background-size: cover;
     background-color: #F5F5F5;
 	text-align: center; 
 }
+header h1{
+   font-weight: 1000; 
+   font-size: 400%
+}
+
 #header-logo{
     padding-top: 70px;
     margin-left: 40px;
