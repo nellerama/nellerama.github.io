@@ -229,6 +229,7 @@ header h2
 #perks{
     text-align: center;
     color: #F5F5F5;
+    font-size: larger;
     padding: 70px 0;
 }
 #perks .row{
@@ -237,13 +238,13 @@ header h2
 #perks .row:first-child{
     margin-top: 0;
 }
-#perks h3{
+#perks h2{
     color: #113F6D;
     font-weight: 700;
 }
 .perk-icon img{
     width: 75%;
-    max-width: 250px;
+    max-width: 400px;
 }
 
 .perk-info{
@@ -257,3 +258,86 @@ header h2
     margin: auto;
 }
 
+/* OUTLINES */
+
+#outlines{
+    color: #113F6D;
+    padding: 10%;
+    padding-top:20px; 
+    background-color: #FDFCF7;
+}
+#outlines .col-12 > div{
+    width: 50%;
+}
+#outlines h2, #outlines h5{
+    text-align: center;
+}
+#outlines h5{
+    margin-top: 10px;
+}
+#outlines span{
+    font-style:italic;
+}
+#outlines .right{
+    justify-content: right;
+}
+
+#outlines .left{
+    justify-content: left;
+}
+
+#outlines .right, #outlines .left {
+    display: flex;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    background-size: auto 26vh;
+    background-position: center;
+}
+
+  #outlines .right{
+    background-position: 60%;
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/arrow_left.svg");
+  }
+
+  #outlines .left{
+
+    background-position: 40%;
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/arrow_right.svg");
+  }
+
+  #outlines .left ul:after, #outlines .right ul:after {
+    position: absolute;
+    z-index: -1;
+    opacity: 50%;
+  }
+  
+#outlines h4{
+    color: #937D1D;
+    text-align: center;
+}
+
+@media screen and(max-width: 768px) {
+    #outlines .col-12 > div{
+        width: 100%;
+    }
+    #outlines .right{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* FOOTER */
+footer{
+    color:#FDFCF7;
+    text-align: center;
+    padding-top: 70px;
+}
+footer p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color:#FDFCF7;
+    font-size: smaller;
+}
