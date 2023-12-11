@@ -54,7 +54,349 @@ header h2
 	color:#113F6D;
 }
 
+/* ACTION */body
+{
+	font-family: "Montserrat";
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+section{
+    min-height: 90vh;
+}
+#action > div, #form-container > div {
+    padding-top: 70px;
+}
+
+h2{
+    font-weight: 1000;
+}
+.background-gold{
+    background-color: #BBA649
+}
+.gold
+{
+	color: #BBA649
+}
+.navy
+{
+	color: #113F6D;
+}
+
+.brown
+{
+	color: #937D1D;
+}
+
+
+.img-thumbnail
+{
+	border: none;
+	background-color: inherit; 
+}
+
+.arrow-down{
+    transform: rotate(90deg);
+    margin: 10px auto;
+}
+
+.arrow-right, .arrow-down{
+    max-width: 9em;
+    min-width: 3em;
+}
+/* HEADER */
+
+header
+{
+	background-repeat:no-repeat;
+	background-size: cover;
+    background-color: #F5F5F5;
+	text-align: center; 
+}
+#header-logo{
+    padding-top: 70px;
+    margin-left: 40px;
+}
+
+#header-text
+{
+	display:grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#header-image-container
+{
+	padding:0;
+}
+
+#header-image-container > img
+{
+	max-width: 100%;
+}
+header h2
+{
+	color:#113F6D;
+}
+
+@media screen and (max-width: 992px) {
+    #header-image-container{
+        display:none;
+    };
+
+    #header-logo{
+        margin: auto;
+    };
+   header .arrow-down{
+        margin: 40px auto;
+   }
+
+}
 /* ACTION */
+#action-info
+{
+	background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/action_background.svg");
+	background-position: center;
+	background-size: cover;
+    color:white;
+    font-weight: 1000;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10% 75%;
+}
+
+#action-info ul{
+    list-style-position: inside;
+    display: grid;
+    font-size: larger;
+}
+
+#form-container{
+    color:white;
+    text-align: center;
+    display: grid;
+    grid-template-rows: 10% 10% 14% 40%;
+}
+#form-container form{
+    width: 60%;
+    margin: auto;
+    border: #F5F5F5 1px solid;
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 70px;
+}
+
+#form-container ul{
+    text-align: center;
+    list-style-position: inside;
+    font-size: smaller;
+    font-style: italic;
+    display: grid;
+    padding: 10px 30px;
+}
+#form-container h5{
+    font-style: italic;
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 30px;
+}
+#form-container ::placeholder{
+    color: #937D1D;
+}
+
+#button-container{
+    text-align: center;
+    margin: 20px 0px;
+}
+#form-container #submit{
+    background-color: #113F6D;
+    height:65px;
+    margin:auto;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#form-container input{
+    border: none;
+}
+
+#form-check{
+    text-align: center;
+}
+
+/* TESTIMONIAL */ 
+
+#testimonial-img-container{
+    background-color: #113F6D;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    text-align: center;
+}
+
+#testimonial-img-container .arrow-right{
+    align-self: center;
+    width: 100%;
+    margin: auto;
+}
+#headshot{
+    width: 100%;
+    align-self: center;
+}
+#bio-container{
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/bio_background.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    display: grid;
+    padding: 70px;
+    text-align: center;
+}
+#bio-container h2{
+    color: #937D1D;
+}
+
+#bio-container p{
+    color: #113F6D;
+}
+@media screen and (max-width: 768px) {
+    #testimonial-img-container .arrow-right{
+        transform: rotate(90deg);
+        margin: auto;
+        padding: 20px;
+    }
+    #testimonial-img-container{
+        grid-template-rows: 75% 25%;
+        grid-template-columns: none;
+    }
+
+    #headshot{
+        width: 50%;
+        margin: auto;
+    }
+    #testimonial-img-container img{
+        margin: auto;
+    }
+}
+
+/* PERKS */
+#perks{
+    text-align: center;
+    color: #F5F5F5;
+    font-size: larger;
+    padding: 70px 0;
+}
+#perks .row{
+    margin-top: 70px;
+}
+#perks .row:first-child{
+    margin-top: 0;
+}
+#perks h2{
+    color: #113F6D;
+    font-weight: 700;
+}
+.perk-icon img{
+    width: 75%;
+    max-width: 400px;
+}
+
+.perk-info{
+    display: grid;  
+    grid-template-rows: 30px auto;
+    align-content: center;
+  
+}
+#perks .arrow-down{
+    padding: 4%;
+    margin: auto;
+}
+
+/* OUTLINES */
+
+#outlines{
+    color: #113F6D;
+    padding: 10%;
+    padding-top:20px; 
+    background-color: #FDFCF7;
+}
+#outlines .col-12 > div{
+    width: 50%;
+}
+#outlines h2, #outlines h5{
+    text-align: center;
+}
+#outlines h5{
+    margin-top: 10px;
+}
+#outlines span{
+    font-style:italic;
+}
+#outlines .right{
+    justify-content: right;
+}
+
+#outlines .left{
+    justify-content: left;
+}
+
+#outlines .right, #outlines .left {
+    display: flex;
+    margin-top: 70px;
+    background-repeat: no-repeat;
+    background-size: auto 26vh;
+    background-position: center;
+}
+
+  #outlines .right{
+    background-position: 60%;
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/arrow_left.svg");
+  }
+
+  #outlines .left{
+
+    background-position: 40%;
+    background-image: url("https://raw.githubusercontent.com/nellerama/nellerama.github.io/main/arrow_right.svg");
+  }
+
+  #outlines .left ul:after, #outlines .right ul:after {
+    position: absolute;
+    z-index: -1;
+    opacity: 50%;
+  }
+  
+#outlines h4{
+    color: #937D1D;
+    text-align: center;
+}
+
+@media screen and(max-width: 768px) {
+    #outlines .col-12 > div{
+        width: 100%;
+    }
+    #outlines .right{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* FOOTER */
+footer{
+    color:#FDFCF7;
+    text-align: center;
+    padding-top: 70px;
+}
+footer p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color:#FDFCF7;
+    font-size: smaller;
+}
 #action
 {
 	background-image: url("file:///C:/Users/djsni/OneDrive/Documents/gillianwolffe/action_background.svg");
